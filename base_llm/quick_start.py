@@ -1,6 +1,6 @@
 from langchain.agents import create_agent
 
-from my_llm import deepseek_llm
+from base_llm.my_llm import deepseek_llm
 
 
 def get_weather(city: str) -> str:

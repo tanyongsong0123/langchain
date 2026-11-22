@@ -1,6 +1,6 @@
 from langchain_deepseek import ChatDeepSeek
 
-from env_utils import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL
+from base_llm.env_utils import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL
 
 # 创建DeepSeek LLM
 deepseek_llm = ChatDeepSeek(
