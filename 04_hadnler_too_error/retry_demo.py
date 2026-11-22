@@ -15,6 +15,7 @@ async def retry():
                 "url":"http://localhost:8000/mcp"
             }
         },
+        # 开启工具调用错误处理试机制
         handle_tool_errors=True
     )
 
